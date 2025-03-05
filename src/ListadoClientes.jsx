@@ -1,11 +1,13 @@
 import Card from "./Card";
 import MenuLateral from "./MenuLateral";
-
-function PanelControl() {
+function ListadoClientes() {
   return (
     <div className="panel-control">
       <MenuLateral />
-      <section className="panel-control-section">
+      <section className="panel-control-clientes">
+        <Card />
+        <Card />
+        <Card />
         <Card />
         <Card />
         <Card />
@@ -14,4 +16,4 @@ function PanelControl() {
   )
 }
 
-export default PanelControl;
+export default ListadoClientes
